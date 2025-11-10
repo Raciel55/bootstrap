@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card-body {
+
+    padding: 0.5rem;
+}
+
+.h5,
+h5 {
+    font-size: 2.25rem;
+    font-family: 'League Gothic', sans-serif;
+    color: black;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.cardSet1 {
+    background-color: #669999;
+}
+
+.cardSet2 {
+    background-color: #cc6666;
+}
+
+.cardSet3 {
+    background-color: #cc9966;
+}
