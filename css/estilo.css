@@ -2,28 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto');
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color:#fff;
-    font-size: 1rem;
-    line-height: 1.5;
+body {
+    text-align: center;
 }
 
-.card-body {
-
+.card-group>.card {
+    flex: 1 0 0;
+    margin-bottom: 0;
     padding: 0.5rem;
+    color: #fff;
+}
+.card-group .card {
+  margin: 0 30px; 
 }
 
 .h5,
 h5 {
-    font-size: 2.25rem;
-    font-family: 'League Gothic', sans-serif;
-    color: black;
+    font-size: 2.5rem;
 }
 
 .card {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125);
+    background-color: #630707;
+    border: 2px solid rgba(0, 0, 0);
     border-radius: .25rem;
 }
 
@@ -37,4 +37,10 @@ h5 {
 
 .cardSet3 {
     background-color: #cc9966;
+}
+
+.btnClass{
+    background-color: #1b538c;
+    color: white;
+    height: 300px;
 }
